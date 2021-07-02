@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    let astronauts = Bundle.main.decode("astronauts.json")
+    let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
     Text("\(astronauts.count)")
       .padding()
   }
