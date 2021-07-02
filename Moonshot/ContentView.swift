@@ -14,7 +14,9 @@ struct ContentView: View {
   var body: some View {
     NavigationView {
       List(missions) { mission in
-        Text(mission.displayName)
+        NavigationLink(destination: Text("Detail View")) {
+          Text(mission.displayName)
+        }        
       }
       .navigationBarTitle("Moonshot")
     }
