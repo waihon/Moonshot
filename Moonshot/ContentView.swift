@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+  let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
+  let missions: [Mission] = Bundle.main.decode("missions.json")
+  
   var body: some View {
-    let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
-    let missions: [Mission] = Bundle.main.decode("missions.json")
-    VStack {
-      Text("Astronouts: \(astronauts.count)")
-        .padding()
-      Text("Missions: \(missions.count)")
-        .padding()
+    NavigationView {
+      List(missions) { mission in
+        Text(mission.displayName)
+      }
+      .navigationBarTitle("Moonshot")
     }
   }
 }
