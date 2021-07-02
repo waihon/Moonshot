@@ -13,6 +13,8 @@
 		4F6268B0268EE77500A4DB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6268AF268EE77500A4DB1A /* Assets.xcassets */; };
 		4F6268B3268EE77500A4DB1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F6268B2268EE77500A4DB1A /* Preview Assets.xcassets */; };
 		4F6268B6268EE77500A4DB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F6268B4268EE77500A4DB1A /* LaunchScreen.storyboard */; };
+		4F6268BF268EEC1700A4DB1A /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F6268BD268EEC1700A4DB1A /* astronauts.json */; };
+		4F6268C2268EECA400A4DB1A /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F6268C1268EECA400A4DB1A /* missions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4F6268B2268EE77500A4DB1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4F6268B5268EE77500A4DB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F6268B7268EE77500A4DB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F6268BD268EEC1700A4DB1A /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		4F6268C1268EECA400A4DB1A /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		4F6268A8268EE77300A4DB1A /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				4F6268C1268EECA400A4DB1A /* missions.json */,
+				4F6268BD268EEC1700A4DB1A /* astronauts.json */,
 				4F6268A9268EE77300A4DB1A /* AppDelegate.swift */,
 				4F6268AB268EE77300A4DB1A /* SceneDelegate.swift */,
 				4F6268AD268EE77300A4DB1A /* ContentView.swift */,
@@ -133,8 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F6268B6268EE77500A4DB1A /* LaunchScreen.storyboard in Resources */,
+				4F6268C2268EECA400A4DB1A /* missions.json in Resources */,
 				4F6268B3268EE77500A4DB1A /* Preview Assets.xcassets in Resources */,
 				4F6268B0268EE77500A4DB1A /* Assets.xcassets in Resources */,
+				4F6268BF268EEC1700A4DB1A /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
